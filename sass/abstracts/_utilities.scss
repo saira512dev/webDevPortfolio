@@ -9,6 +9,8 @@
 }
 
 .heading-sec {
+  text-align: center;
+  
   &__mb-bg {
     margin-bottom: 11rem;
     @include respond(tab-port) {
@@ -65,6 +67,7 @@
     max-width: 80rem;
     margin: auto;
     line-height: 1.6;
+    margin-bottom: 2rem;
 
     @include respond(phone) {
       font-size: 1.8rem;
