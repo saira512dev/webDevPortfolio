@@ -148,9 +148,12 @@
 
     &-img-cont {
       overflow: hidden;
+      display:flex;
+      justify-content: center;
     }
     &-img {
-      width: 100%;
+      width: 70%;
+      height: auto;
       display: block;
       object-fit: cover;
     }

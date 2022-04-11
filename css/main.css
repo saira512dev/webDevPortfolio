@@ -291,9 +291,12 @@ textarea {
   .projects__row:last-child {
     margin-bottom: 0; }
   .projects__row-img-cont {
-    overflow: hidden; }
+    overflow: hidden;
+    display: flex;
+    justify-content: center; }
   .projects__row-img {
-    width: 100%;
+    width: 70%;
+    height: auto;
     display: block;
     object-fit: cover; }
   .projects__row-content {
