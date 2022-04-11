@@ -128,8 +128,8 @@
 .projects {
   &__row {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
     margin-bottom: 11rem;
 
     @include respond(tab-port) {
@@ -150,12 +150,16 @@
       overflow: hidden;
       display:flex;
       justify-content: center;
+
+      @include respond(tab-port) {
+        justify-content: center;
+      }
     }
     &-img {
-      width: 70%;
-      height: auto;
+      width: 60%;
+      height: 350px;
       display: block;
-      object-fit: cover;
+      object-fit: contain;
     }
     &-content {
       padding: 2rem 0;
