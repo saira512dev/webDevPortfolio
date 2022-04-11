@@ -294,7 +294,7 @@
           </span>
         </h2>
         <div class="contact__form-container">
-          <form name="contact" method="POST" data-netlify="true" class="contact__form">
+          <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" class="contact__form">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -329,6 +329,9 @@
                 id="message"
               ></textarea>
             </div>
+            </p>
+            <div data-netlify-recaptcha="true"></div>
+            <p>
             <button type="submit" class="btn btn--theme contact__btn">
               Submit
             </button>
