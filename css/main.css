@@ -275,6 +275,13 @@ textarea {
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
 
+.projects__link-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center; }
 .projects__row {
   display: grid;
   grid-template-columns: 1fr 1fr;

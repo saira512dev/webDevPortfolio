@@ -126,6 +126,15 @@
 }
 
 .projects {
+
+  &__link-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
   &__row {
     display: grid;
     grid-template-columns: 1fr 1fr;
